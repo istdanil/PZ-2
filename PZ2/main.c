@@ -14,7 +14,7 @@ int findnok(int a, int b) {
     return (a * b) / findnod(a, b);
 }
 
-int main() {
+void main() {
  
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
@@ -42,5 +42,5 @@ int main() {
 
     printf("Найменюше кратне: %d\n", min_crat);
 
-    return 0;
+    
 }
